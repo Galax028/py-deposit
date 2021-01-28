@@ -1,0 +1,8 @@
+py-deposit help menu
+
+create     Create a new profile for saving a username and a password.
+delete     Delete a profile.
+help       Show help for py-deposit.
+license    Show license for py-deposit.
+quit       Quit py-deposit.
+view       Show all the username and passwords stored in py-deposit.
