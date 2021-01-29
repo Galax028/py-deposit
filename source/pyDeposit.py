@@ -102,8 +102,9 @@ def main():
         if prompt == "create":
             create()
             continue
-        elif prompt == "delete":
-            delete()
+        elif prompt.startswith("delete"):
+            prompt = prompt[7:]
+            delete(prompt)
             continue
         elif prompt.startswith("help"):
             prompt = prompt[5:]
